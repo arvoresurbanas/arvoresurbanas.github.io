@@ -26,13 +26,17 @@
       'Também dá para gerar a ficha em PDF.'] },
     { c: '#a63d5a', t: 'Backup (importante!)', l: [
       'Os dados ficam só no seu celular.', 'Faça backup de vez em quando: <b>Fazer agora</b> na tela inicial.',
-      'Guarde o arquivo no Drive, OneDrive ou mande para você mesma.', 'Troca de celular? Restaure o backup no app novo.'] },
+      'Guarde o arquivo no Drive, OneDrive ou mande para você mesma.', 'Troca de celular? Restaure o backup no app novo.',
+      'Os dados ficam presos ao endereço do app. Se o endereço mudar um dia, faça o backup antes.'] },
     { c: '#5b6b73', t: 'Instalar e usar sem internet', l: [
       'Abra <b>arvoresurbanas.com.br</b> e toque em <b>Abrir o app</b>.', 'Android: menu do Chrome › <b>Instalar app</b>.', 'iPhone: Compartilhar › <b>Adicionar à Tela de Início</b>.',
       'Depois de instalado, funciona sem internet.', 'Cidade e bairro são descobertos quando a internet voltar.'] },
   ];
   const DONTS = ['Não apague o app sem fazer backup.', 'Não limpe os dados do navegador sem backup.', 'Não precisa ficar online para cadastrar.'];
   const CHANGES = [
+    { v: 'V4', d: '22/10/2026', l: [
+      'O app ganhou um <b>endereço permanente</b>: arvoresurbanas.github.io (gratuito, não vence). O endereço arvoresurbanas.com.br continua funcionando e leva até ele. <i>Como usar:</i> nada muda no dia a dia. Quem instalou antes deve abrir o app novo e usar <b>Carimbo, backup e sobre › Restaurar</b> com o backup do app antigo.',
+      'Novo aviso no manual, em <b>Backup</b>: os dados ficam presos ao endereço do app. <i>Como usar:</i> se um dia o endereço mudar, faça o backup antes e restaure no app novo.'] },
     { v: 'V3', d: '15/10/2026', l: [
       'Novo <b>site</b> em arvoresurbanas.com.br, com o projeto, textos sobre árvores e galeria de fotos. <i>Como usar:</i> abra o endereço no navegador, ou toque no link no fim da tela inicial do app.',
       'O app agora fica em <b>arvoresurbanas.com.br/app</b>. <i>Como usar:</i> nada muda para quem já instalou. O ícone continua abrindo o app e suas árvores continuam lá.'] },
